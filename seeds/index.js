@@ -24,3 +24,5 @@ const seedAll = async () => {
 };
 
 seedAll();
+
+seedAll().catch(e => console.log("error during seeds", e));
